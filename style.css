@@ -16,6 +16,10 @@
     color: #FFFFFF;
     font-weight: bold;
 }
+.common-btn:hover{
+    cursor: pointer;
+    background-color: #0f0d4d;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -27,7 +31,9 @@
     color: #252432;
 }
 nav, 
-.nav-title{
+.banner,
+.productive-user,
+.user-feedback {
     width: 80%;
     margin: 0 auto;
 }
@@ -50,13 +56,13 @@ header{
     border-radius: 50%;
     width: 80px;
 }
-.nav-title h1{
+.banner h1{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 35px;
 }
-.nav-title .nav-title-btn{
+.banner .banner-btn{
     margin-bottom: 150px ;
 }
 /* main action */
@@ -82,4 +88,32 @@ header{
     max-width: 400px;
     height: 330px;
     border-radius: 48px;
+}
+/* productive user */
+.productive-user{
+    background-color:#a19fdf6b;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+.productive-user-title{
+    font-size: 38px;
+    margin-bottom: 38px;
+}
+.productive-info{
+    display: flex;
+    justify-content: space-around;
+}
+.user-feedback h1{
+    font-size: 42px;
+    /* font-weight: ; */
+}
+.users h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 80px;
+  color: #4E47FF;
+}
+.users p{
+    font-size: 20px;
 }
