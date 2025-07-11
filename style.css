@@ -156,6 +156,7 @@ header{
 .review-info{
     display: flex;
     align-items: center;
+    margin-top: 24px;
 }
 .dark-lite{
     color: #B3B3B3;
@@ -206,4 +207,45 @@ header{
 .touch-btn{
     width: 497px;
     height: 62px;
+}
+/* footer style */
+.footer{
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-top: 120px;
+    padding: 100px 0;
+}
+.footer-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content ul li{
+    list-style: none;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    margin-right: 48px;
+}
+
+.footer .footer-img{
+    margin-bottom: 30px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content p{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #8987A1;
+    margin-bottom: 20px;
 }
